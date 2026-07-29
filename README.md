@@ -116,14 +116,13 @@ graph LR
 
 > 以下均已脱敏，仅描述技术方向，不泄露客户与具体产品。
 
-a) **某社交 APP** — 私有协议全量还原，导出 API 文档并交付 Python 复现脚本
-b) **某金融类 APP** — 加固脱壳 + so 层签名算法还原（OLLVM 混淆），unidbg 模拟执行
-c) **某直播/短视频** — 设备指纹与风控检测对抗研究（授权安全审计）
-d) **某 Flutter 应用** — Flutter Release 模式逆向，Dart snapshot 分析，还原核心接口
-e) **某出海应用** — 多语言/多地区包签名差异分析
-f) **某游戏** — so 层加密逻辑定位与协议还原
-g) **某电商** — 价格/库存接口签名算法还原，转 Python SDK
-h) **RASP 加固应用（Promon SHIELD）** — 全链路检测对抗 + LSPosed 数据-only 补丁，详见 [Featured Write-up](docs/promon-shield.md)
+a) **Telegram 定制客户端** — 基于 Telegram 开源 API 的二次开发/定制版。*安全提醒：请勿使用来路不明的「定制版」客户端，可能暗藏后门与陷阱，不要贪图便宜。*
+b) **农用无人机控制板** — 嵌入式固件工程：修改出厂控制逻辑、参数调优（自有硬件）。
+c) **某竞品 APP** — 授权下还原 native(so) 算法，解密 JavaScript 代码，交付算法说明文档。
+d) **某加固（壳）产品** — 授权安全分析：协议结构梳理、脱壳、风控检测对抗研究。
+e) **某 Flutter 应用** — Flutter Release 模式 so 逆向、Dart snapshot 分析、核心接口还原。
+f) **模拟器 / 设备指纹对抗研究** — 授权安全审计：模拟器改机、设备指纹 / 环境检测对抗（方法论同 Featured 文章）。
+g) **RASP 加固应用（Promon SHIELD）** — 全链路检测对抗 + LSPosed 数据-only 补丁，详见 [Featured Write-up](docs/promon-shield.md)
 
 > 想看更多？私信 [@pidanfuzi](https://t.me/pidanfuzi) 获取与您行业匹配的脱敏案例。
 
