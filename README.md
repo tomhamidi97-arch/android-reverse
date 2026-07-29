@@ -18,14 +18,6 @@
 
 ---
 
-## 🧭 能力图谱
-
-<p align="center">
-  <img src="assets/capability-map.png" alt="Android 逆向能力图谱" width="780">
-</p>
-
----
-
 ## 📦 业务方向
 
 > 以下均为**授权范围内**的合规业务方向（已脱敏表述）。
@@ -80,6 +72,14 @@ graph LR
 | **数据采集（合规）** | 授权范围内 app / 网页数据采集、竞品数据分析 |
 | **系统级开发** | 定制 ROM、模拟器 / 虚拟机方案开发 → 作品站：[ypsmkj.us](https://ypsmkj.us) |
 | **跨平台逆向** | Flutter / React Native / uni-app |
+
+---
+
+## 🧭 能力图谱
+
+<p align="center">
+  <img src="assets/capability-map.png" alt="Android 逆向能力图谱" width="780">
+</p>
 
 ---
 
