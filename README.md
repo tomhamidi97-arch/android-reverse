@@ -130,10 +130,9 @@ g) **RASP 加固应用（Promon SHIELD）** — 全链路检测对抗 + LSPosed 
 
 ## 📑 研究分析文档
 
-- ⭐ [Reversing Promon SHIELD — RASP 全链路对抗](docs/promon-shield.md) *(Featured)*
-- [Android 逆向需求分析 (1) — 模拟器 / 云手机 / 真机](docs/01-环境选型.md)
-- [Android 逆向需求分析 (2) — 主流加固方案对比](docs/02-加固对比.md)
-- [2026 Android 逆向：技术与业务趋势](docs/03-2026趋势.md)
+- [Reversing Promon SHIELD: From Emulator Detection to an Xposed Data-Only Patch](docs/promon-shield.md) — RASP / app-shielding 全链路对抗 write-up
+
+> 更多研究文档整理中，陆续上传。
 
 ---
 
