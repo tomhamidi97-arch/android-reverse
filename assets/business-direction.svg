@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Segoe UI',sans-serif">
+  <rect width="1200" height="720" fill="#ffffff"/>
+
+  <!-- connectors (behind nodes) -->
+  <g fill="none" stroke="#cbd5e0" stroke-width="3">
+    <path d="M 510,350 C 420,350 420,90 330,90"/>
+    <path d="M 510,362 C 430,362 410,330 330,330"/>
+    <path d="M 510,374 C 420,374 420,570 330,570"/>
+    <path d="M 690,350 C 780,350 780,90 870,90"/>
+    <path d="M 690,362 C 770,362 790,330 870,330"/>
+    <path d="M 690,374 C 780,374 780,570 870,570"/>
+  </g>
+
+  <!-- center node -->
+  <rect x="510" y="330" width="180" height="64" rx="32" fill="#3a3a3a"/>
+  <text x="600" y="362" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="800" fill="#ffffff">Android 逆向</text>
+
+  <!-- L1 协议定制 & 系统集成 (green) -->
+  <rect x="70" y="70" width="260" height="40" rx="20" fill="#27ae60"/>
+  <text x="200" y="90" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#ffffff">协议定制 &amp; 系统集成</text>
+  <g font-size="14" fill="#4a5568">
+    <text x="90" y="132">• 私有协议还原 / 接口 SDK 化</text>
+    <text x="90" y="156">• 企业内部系统集成（授权）</text>
+  </g>
+
+  <!-- L2 加固 & 脱壳 (red) -->
+  <rect x="70" y="310" width="260" height="40" rx="20" fill="#e74c3c"/>
+  <text x="200" y="330" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#ffffff">加固 &amp; 脱壳</text>
+  <g font-size="14" fill="#4a5568">
+    <text x="90" y="372">• 各类壳脱壳 / dex dump 修复</text>
+    <text x="90" y="396">• Java2C / VMP 分析</text>
+  </g>
+
+  <!-- L3 算法还原 (orange) -->
+  <rect x="70" y="550" width="260" height="40" rx="20" fill="#e67e22"/>
+  <text x="200" y="570" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#ffffff">算法还原</text>
+  <g font-size="14" fill="#4a5568">
+    <text x="90" y="612">• Java &amp; Native 加解密 / 签名</text>
+    <text x="90" y="636">• OLLVM 反混淆 / unidbg 模拟</text>
+  </g>
+
+  <!-- R1 安全审计 & 对抗研究 (teal) -->
+  <rect x="870" y="70" width="260" height="40" rx="20" fill="#16a085"/>
+  <text x="1000" y="90" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#ffffff">安全审计 &amp; 对抗研究</text>
+  <g font-size="14" fill="#4a5568">
+    <text x="890" y="132">• 设备指纹 / root / 模拟器检测对抗</text>
+    <text x="890" y="156">• Frida 检测对抗（授权审计）</text>
+  </g>
+
+  <!-- R2 自动化 & RPA (yellow) -->
+  <rect x="870" y="310" width="260" height="40" rx="20" fill="#f1c40f"/>
+  <text x="1000" y="330" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#1a1a1a">自动化 &amp; RPA</text>
+  <g font-size="14" fill="#4a5568">
+    <text x="890" y="372">• 脚本 / 插件开发</text>
+    <text x="890" y="396">• 抓包-分析-复现流水线</text>
+  </g>
+
+  <!-- R3 系统级开发 (blue) -->
+  <rect x="870" y="550" width="260" height="40" rx="20" fill="#2980b9"/>
+  <text x="1000" y="570" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#ffffff">系统级开发</text>
+  <g font-size="14" fill="#4a5568">
+    <text x="890" y="612">• 定制 ROM</text>
+    <text x="890" y="636">• 模拟器 / 虚拟机方案</text>
+    <text x="890" y="660">• 合规数据采集</text>
+  </g>
+</svg>

@@ -22,45 +22,9 @@
 
 > 以下均为**授权范围内**的合规业务方向（已脱敏表述）。
 
-```mermaid
-graph LR
-  ROOT(["Android 逆向"])
-  ROOT --> A["📊 数据采集（合规）"]
-  ROOT --> B["🔌 协议定制 & 系统集成"]
-  ROOT --> C["🛡 安全审计 & 对抗研究"]
-  ROOT --> D["🤖 自动化 & RPA"]
-  ROOT --> E["🖥 系统级开发"]
-
-  A --> A1["授权 app / 网页数据采集"]
-  A --> A2["竞品数据分析"]
-
-  B --> B1["私有协议还原 / 接口 SDK 化"]
-  B --> B2["企业内部系统集成（授权）"]
-
-  C --> C1["脱壳 / 加固 / 算法提取"]
-  C --> C2["风控检测研究（授权审计 / 自有 APP）"]
-
-  D --> D1["脚本 / 插件开发"]
-  D --> D2["抓包-分析-复现流水线"]
-
-  E --> E1["定制 ROM"]
-  E --> E2["模拟器 / 虚拟机方案"]
-
-  classDef root fill:#4a4a4a,color:#fff,stroke:none
-  classDef a fill:#e74c3c,color:#fff,stroke:none
-  classDef b fill:#27ae60,color:#fff,stroke:none
-  classDef c fill:#e67e22,color:#fff,stroke:none
-  classDef d fill:#f1c40f,color:#333,stroke:none
-  classDef e fill:#16a085,color:#fff,stroke:none
-  classDef leaf fill:#ffffff,color:#333,stroke:#ccc
-  class ROOT root
-  class A a
-  class B b
-  class C c
-  class D d
-  class E e
-  class A1,A2,B1,B2,C1,C2,D1,D2,E1,E2 leaf
-```
+<p align="center">
+  <img src="assets/business-direction.svg" alt="Android 逆向 · 合规业务方向" width="1000">
+</p>
 
 | 方向 | 说明 |
 |---|---|
