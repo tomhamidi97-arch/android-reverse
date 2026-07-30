@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Android 逆向 & 移动安全 · 接单能力说明（打印版）</title>
+<style>
+  :root { --ink:#1a1a1a; --mute:#555; --line:#d0d4da; --accent:#246b8c; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0; color: var(--ink);
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+    font-size: 13.5px; line-height: 1.6;
+    background: #eceef1;
+  }
+  .page {
+    max-width: 820px; margin: 24px auto; background: #fff;
+    padding: 40px 46px; box-shadow: 0 1px 8px rgba(0,0,0,.08);
+  }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-bottom: 18px; }
+  header h1 { margin: 0 0 4px; font-size: 21px; }
+  header .sub { color: var(--mute); font-size: 13px; }
+  .contacts { margin-top: 8px; font-size: 12.5px; color: var(--mute); }
+  .contacts span { margin-right: 14px; white-space: nowrap; }
+  h2 { font-size: 15px; margin: 22px 0 8px; padding-left: 8px; border-left: 4px solid var(--accent); }
+  p, ul { margin: 6px 0; }
+  ul { padding-left: 20px; }
+  li { margin: 2px 0; }
+  .pill-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+  .pill { background: #eef3f6; border: 1px solid var(--line); border-radius: 11px; padding: 2px 9px; font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+  th, td { border: 1px solid var(--line); padding: 6px 9px; text-align: left; vertical-align: top; font-size: 12.8px; }
+  th { background: #f4f6f8; }
+  .callout { border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; margin: 8px 0; font-size: 12.8px; }
+  .ok { border-left: 4px solid #27ae60; background: #f1f8f3; }
+  .no { border-left: 4px solid #c0392b; background: #fdf3f2; }
+  .cases { list-style: none; padding-left: 0; }
+  .cases li { padding: 4px 0; border-bottom: 1px dashed var(--line); }
+  .cases li:last-child { border-bottom: none; }
+  .biz { width: 100%; max-height: 360px; display: block; margin: 6px auto; }
+  .toolbar { position: sticky; top: 0; background: #fff; border-bottom: 1px solid var(--line);
+    padding: 10px 0; margin: -40px -46px 18px; text-align: right; }
+  .btn { background: var(--accent); color: #fff; border: none; border-radius: 6px;
+    padding: 8px 16px; font-size: 13px; cursor: pointer; margin-right: 46px; }
+  .btn:hover { background: #1c5570; }
+  footer { margin-top: 22px; padding-top: 10px; border-top: 1px solid var(--line);
+    font-size: 11px; color: var(--mute); text-align: center; }
+
+  @media print {
+    @page { size: A4; margin: 13mm; }
+    body { background: #fff; font-size: 12px; }
+    .page { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+    .toolbar, .btn, .no-print { display: none !important; }
+    h2 { page-break-after: avoid; }
+    .cases li, .callout, table { page-break-inside: avoid; }
+    header { page-break-after: avoid; }
+    a { color: var(--ink); text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="toolbar no-print">
+    <button class="btn" onclick="window.print()">🖨 打印 / 另存为 PDF</button>
+  </div>
+
+  <header>
+    <h1>互联网 10+ 年 · 安卓逆向 &amp; 移动安全 · 独立接单</h1>
+    <div class="sub">Android / iOS 逆向 · 协议分析 · 算法还原 · 加固脱壳 · 移动安全研究</div>
+    <div class="contacts">
+      <span>Telegram: @pidanfuzi</span>
+      <span>Email: tomhamidi97@gmail.com</span>
+      <span>GitHub: tomhamidi97-arch/android-reverse</span>
+    </div>
+  </header>
+
+  <div class="callout ok">
+    <b>🟢 接单方向：</b>协议分析 / 算法还原 / 加固脱壳修复 / APP 风控研究 / 移动端安全逆向 / 自动化与 RPA / 系统级开发（定制 ROM、模拟器/虚拟机方案）
+  </div>
+  <div class="callout no">
+    <b>🔴 不接方向：</b>未授权破解他人付费应用、规避支付、游戏相关/赌博相关、窃取用户隐私、任何违反目标所在国法律的需求。所有业务仅限书面授权或自有 APP，接单前签订 NDA + 授权说明。
+  </div>
+
+  <h2>业务方向（合规）</h2>
+  <img class="biz" src="assets/business-direction.svg" alt="业务方向">
+  <div class="pill-row">
+    <span class="pill">协议定制 &amp; 系统集成</span>
+    <span class="pill">算法还原</span>
+    <span class="pill">加固 &amp; 脱壳</span>
+    <span class="pill">安全审计 &amp; 对抗研究</span>
+    <span class="pill">自动化 &amp; RPA</span>
+    <span class="pill">系统级开发</span>
+    <span class="pill">合规数据采集</span>
+  </div>
+
+  <h2>技术栈</h2>
+  <table>
+    <tr><th>逆向 / 分析</th><td>Frida · Xposed / LSPosed · Jadx · Apktool · JEB · IDA Pro · Ghidra · unidbg</td></tr>
+    <tr><th>Native / 汇编</th><td>ARM64 · OLLVM 反混淆 · VMP 分析 · C/C++</td></tr>
+    <tr><th>脚本 / 复现</th><td>Python · Smali · Node.js · adb</td></tr>
+    <tr><th>环境</th><td>Magisk · Zygisk · Genymotion · 云手机</td></tr>
+    <tr><th>跨平台</th><td>Flutter · React Native · uni-app</td></tr>
+  </table>
+
+  <h2>客户案例（脱敏）</h2>
+  <ul class="cases">
+    <li><b>a) Telegram 定制客户端</b> — 基于 Telegram 开源 API 二开定制版。<i>安全提醒：请勿使用来路不明的「定制版」客户端，可能暗藏后门与陷阱。</i></li>
+    <li><b>b) 农用无人机控制板</b> — 嵌入式固件工程：修改出厂控制逻辑、参数调优（自有硬件）。</li>
+    <li><b>c) 某竞品 APP</b> — 授权下还原 native(so) 算法，解密 JavaScript 代码，交付算法说明文档。</li>
+    <li><b>d) 某加固（壳）产品</b> — 授权安全分析：协议结构梳理、脱壳、风控检测对抗研究。</li>
+    <li><b>e) 某 Flutter 应用</b> — Flutter Release 模式 so 逆向、Dart snapshot 分析、核心接口还原。</li>
+    <li><b>f) 模拟器 / 设备指纹对抗研究</b> — 授权安全审计：模拟器改机、设备指纹 / 环境检测对抗。</li>
+    <li><b>g) RASP 加固应用（Promon SHIELD）</b> — 全链路检测对抗 + LSPosed 数据-only 补丁（详见独立 write-up）。</li>
+  </ul>
+
+  <h2>代表研究文档</h2>
+  <p><b>Reversing Promon SHIELD: From Emulator Detection to an Xposed Data-Only Patch</b> — 授权 RASP / app-shielding 对抗全流程。</p>
+
+  <h2>接单范围与语言</h2>
+  <table>
+    <tr><th>英文（欧洲主流市场）</th><td>Upwork · Fiverr · Freelancer</td></tr>
+    <tr><th>中文</th><td>淘宝 · 京东 · 闲鱼 · 私单</td></tr>
+    <tr><th>交付语言</th><td>中文 / English 双语皆可（文档、注释、沟通均支持双语交付）</td></tr>
+  </table>
+
+  <h2>联系方式</h2>
+  <table>
+    <tr><th>Telegram</th><td>@pidanfuzi</td></tr>
+    <tr><th>Email</th><td>tomhamidi97@gmail.com</td></tr>
+    <tr><th>GitHub</th><td>github.com/tomhamidi97-arch/android-reverse</td></tr>
+  </table>
+  <p style="font-size:12.5px;color:var(--mute);"><b>接单流程：</b>需求描述 → 报价 &amp; 工期 → 签授权/NDA → 交付（脱敏报告 + 可运行脚本）→ 售后。</p>
+
+  <footer>本说明仅用于技术能力展示与合法授权业务承接，不提供任何未授权破解工具或服务。</footer>
+</div>
+</body>
+</html>
