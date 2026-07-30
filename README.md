@@ -95,6 +95,7 @@ g) **RASP 加固应用（Promon SHIELD）** — 全链路检测对抗 + LSPosed 
 ## 📑 研究分析文档
 
 - [Reversing Promon SHIELD: From Emulator Detection to an Xposed Data-Only Patch](docs/promon-shield.md) — RASP / app-shielding 全链路对抗 write-up
+- [Reversing the UPI Wallet Protocol: From OTP Login to Transaction History](docs/upi-wallet-protocol.md) — 印度主流 UPI 钱包（Amazon Pay / PhonePe / Paytm 等）通用协议接口模型分析（[中文版](docs/upi-wallet-protocol.zh.md) / 🌐 [在线版 andriodanalysis.com](https://andriodanalysis.com/upi-wallet-protocol.html)）
 
 > 更多研究文档整理中，陆续上传。
 
