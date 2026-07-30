@@ -99,6 +99,8 @@
 
 - [Reversing Promon SHIELD: From Emulator Detection to an Xposed Data-Only Patch](docs/promon-shield.md) — RASP / app-shielding 全链路对抗 write-up
 - [Reversing the UPI Wallet Protocol: From OTP Login to Transaction History](docs/upi-wallet-protocol.md) — 印度主流 UPI 钱包（Amazon Pay / PhonePe / Paytm 等）通用协议接口模型分析（[中文版](docs/upi-wallet-protocol.zh.md) / 🌐 [在线版 andriodanalysis.com](https://andriodanalysis.com/upi-wallet-protocol.html)）
+- [VMP on Android Native Libraries: Internals, Tooling, and a Devirtualization Lab](docs/vmp-android-native.md) — 虚拟机保护（VMP）原理、2026 主流去虚拟化工具链，以及"搭一个微型 VM 再写 lifter 拆掉它"的完整实战（[中文版](docs/vmp-android-native.zh.md) / 🌐 [在线版 andriodanalysis.com](https://andriodanalysis.com/vmp-android-native.html)）
+- [Designing a Device-Level Android Virtual Environment: A Requirements Analysis](docs/device-level-android-vm.md) — 从 App 检查面反推设备级 Android VM 的工程需求（定制内核 / Framework 层控制 / 按实例隔离 / 传感器与网络一致性），贴合自研环境 CoderGeek（ypsmkj.us）（[中文版](docs/device-level-android-vm.zh.md) / 🌐 [在线版 andriodanalysis.com](https://andriodanalysis.com/android-virtual-environment.html)）
 - [Reversing VMP + OLLVM with a Frida Boundary-Hook Harness](docs/frida-vmp-ollvm-hook.md) — 三层边界 Hook（libc / JNI / Java）动态还原 VMP+OLLVM 加固 native 的方法论与实战（[中文版](docs/frida-vmp-ollvm-hook.zh.md) / 🌐 [在线版 andriodanalysis.com](https://andriodanalysis.com/frida-vmp-ollvm-hook.html)）
 
 > 更多研究文档整理中，将陆续发布。
